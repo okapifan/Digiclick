@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5c0e7a148198045a5b939dc0e39aff, type: 3}
+  m_Name: Route 4
+  m_EditorClassIdentifier: 
+  name: Route 4
+  isTown: 0
+  encounters:
+  - {fileID: 11400000, guid: a0adeefc4f617d74886a4a9b5e443bd9, type: 2}
+  - {fileID: 11400000, guid: 2c88b4753fd92794397785546f28d9a7, type: 2}
+  - {fileID: 11400000, guid: 97288d2f0c462f14b8e4433045e5f91a, type: 2}
+  - {fileID: 11400000, guid: f84d28edd80cb67469b19cdcc1394f25, type: 2}
+  isUnlockedByDefault: 0
+  unlocks:
+  - {fileID: 11400000, guid: 735c44f70ea6e664dba94126df899a30, type: 2}

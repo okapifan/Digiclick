@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96428642b8fad9f46a790427310121bf, type: 3}
+  m_Name: Bibimon
+  m_EditorClassIdentifier: 
+  name: Bibimon
+  image: {fileID: 21300000, guid: 333084d2b6029ce43995e09bf233930c, type: 3}
+  stage: 1
+  digivolutions: []
+  isUnlocked: 0
+  maxHp: 120
+  timeLimit: -1
+  stats:
+    strength: -1
+    intelligence: -1
+    speed: 15
+    stamina: -1
+    skill: 20
+  rewards:
+    money: 15
+    trainingItem: {fileID: 11400000, guid: ce67c8737bed3e74ebdfe3233ec78b50, type: 2}
+    trainingItemChance: 1
+    unlockableSpecies: {fileID: 0}
+  exp_yield: 27

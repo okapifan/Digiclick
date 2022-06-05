@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29e0f006d23d9544b3768537ae3eefa, type: 3}
+  m_Name: Bakemon
+  m_EditorClassIdentifier: 
+  name: Bakemon
+  image: {fileID: 21300000, guid: fd8a1da4ebb40d240be70032ffe3a560, type: 3}
+  stage: 3
+  digivolutions:
+  - specie: {fileID: 11400000, guid: b7cabef21855a8c40bc849c48d372217, type: 2}
+    requirement:
+      requiredLevel: 89
+      requiredStats:
+        strength: 700
+        intelligence: 700
+        speed: 500
+        stamina: 0
+        skill: 400
+  - specie: {fileID: 11400000, guid: 766b898db56186b45839854c65400bb4, type: 2}
+    requirement:
+      requiredLevel: 86
+      requiredStats:
+        strength: 900
+        intelligence: 0
+        speed: 300
+        stamina: 700
+        skill: 300

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96428642b8fad9f46a790427310121bf, type: 3}
+  m_Name: Kamemon
+  m_EditorClassIdentifier: 
+  name: Kamemon
+  image: {fileID: 21300000, guid: 94f4d0ec1beeb304c98d0cb7381976fd, type: 3}
+  stage: 2
+  digivolutions: []
+  isUnlocked: 0
+  maxHp: 625
+  timeLimit: -1
+  stats:
+    strength: -1
+    intelligence: -1
+    speed: 90
+    stamina: -1
+    skill: 95
+  rewards:
+    money: 22
+    trainingItem: {fileID: 11400000, guid: d628cc7680740314089c93e19414b9c5, type: 2}
+    trainingItemChance: 1
+    unlockableSpecies: {fileID: 0}
+  exp_yield: 220

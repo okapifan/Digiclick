@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29e0f006d23d9544b3768537ae3eefa, type: 3}
+  m_Name: Tsumemon
+  m_EditorClassIdentifier: 
+  name: Tsumemon
+  image: {fileID: 21300000, guid: 212fdd2b0ce0c46499b030672d404688, type: 3}
+  stage: 1
+  digivolutions:
+  - specie: {fileID: 11400000, guid: d8b2955ae9da11f48a3c309706debca5, type: 2}
+    requirement:
+      requiredLevel: 10
+      requiredStats:
+        strength: 0
+        intelligence: 30
+        speed: 50
+        stamina: 0
+        skill: 0
+  - specie: {fileID: 11400000, guid: cbb5869fe4ab51249b4d3e638360d215, type: 2}
+    requirement:
+      requiredLevel: 12
+      requiredStats:
+        strength: 50
+        intelligence: 0
+        speed: 0
+        stamina: 30
+        skill: 0
+  isUnlocked: 1

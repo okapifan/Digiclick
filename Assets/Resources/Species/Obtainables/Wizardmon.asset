@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29e0f006d23d9544b3768537ae3eefa, type: 3}
+  m_Name: Wizardmon
+  m_EditorClassIdentifier: 
+  name: Wizardmon
+  image: {fileID: 21300000, guid: 0db85efced568754995a292f08a12fe2, type: 3}
+  stage: 3
+  digivolutions:
+  - specie: {fileID: 11400000, guid: 70b93165c367dac40bc313b6d1bd64e3, type: 2}
+    requirement:
+      requiredLevel: 95
+      requiredStats:
+        strength: 0
+        intelligence: 900
+        speed: 600
+        stamina: 300
+        skill: 600
+  - specie: {fileID: 11400000, guid: 36aae4378e47c494db842eb31850c54d, type: 2}
+    requirement:
+      requiredLevel: 90
+      requiredStats:
+        strength: 800
+        intelligence: 500
+        speed: 800
+        stamina: 0
+        skill: 300
